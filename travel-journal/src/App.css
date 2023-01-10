@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .nav--logo {
@@ -17,4 +18,38 @@
 .nav--text{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: 10px;
+    
+}
+.card--content{
+    float:left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.card--image{
+    float: left;
+    height: 240px;
+    padding-bottom: 16px;
+}
+.location{
+    display: flex;
+}
+
+.maps-url{
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 0;
 }
